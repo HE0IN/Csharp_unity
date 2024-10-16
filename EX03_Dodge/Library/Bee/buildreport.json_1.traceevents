@@ -1,0 +1,551 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1728957895272617, "dur": 1258012, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728957895272764, "dur": 12036, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728957895284802, "dur": 32017, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728957895316820, "dur": 660734, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728957895977556, "dur": 539263, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728957896516822, "dur": 13806, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728957896531100, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1728957895715611, "dur": 232534, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728957895716260, "dur": 30989, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728957895933842, "dur": 3272, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728957895937117, "dur": 11021, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728957895937590, "dur": 9603, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728957895951121, "dur": 847, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728957895950613, "dur": 1369, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728957896531272, "dur": 125, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1728957896005232, "dur":779, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896006016, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1728957896006049, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1728957896006059, "dur":435, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1728957896006507, "dur":232, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896006739, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896498460, "dur":453, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896498913, "dur":201, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499114, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499117, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499121, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499122, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499127, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499128, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499130, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499131, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499135, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499136, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499139, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499139, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499142, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499143, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499146, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499147, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499149, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499150, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499152, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499153, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499156, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499156, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499159, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499160, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499163, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499164, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499166, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499167, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499169, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499170, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499173, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499174, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499176, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499177, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499182, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499183, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499185, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499186, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499189, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499190, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499199, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499200, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499202, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499202, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499205, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499206, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499208, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499220, "dur":15, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896499241, "dur":1124, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1728957896019483, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728957896019487, "dur":2201, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728957896021693, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1728957896021696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728957896022635, "dur":439, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1728957896023077, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1728957896023161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728957896023336, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1728957896026292, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1728957896026355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728957896030070, "dur":12401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1728957896042505, "dur":33535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728957896076044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728957896076206, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728957896080514, "dur":158745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728957896239263, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728957896239305, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728957896241595, "dur":86190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728957896327790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728957896327802, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728957896329222, "dur":169238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728957896020005, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728957896020006, "dur":1690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728957896021697, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1728957896021885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728957896075272, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1728957896076366, "dur":80268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728957896156640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728957896156649, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728957896160055, "dur":78585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728957896238648, "dur":144, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728957896238803, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728957896240621, "dur":87225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728957896327849, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728957896327857, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728957896329438, "dur":169051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896019827, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896019827, "dur":1867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896021695, "dur":18808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1728957896040508, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896040529, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1728957896042026, "dur":33391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896075422, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896075782, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896077102, "dur":34961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896112069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896112082, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896113662, "dur":35803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896149468, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896149477, "dur":2971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896152479, "dur":33498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896185982, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896186016, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896188298, "dur":45435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896233743, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896233760, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896235568, "dur":136341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896371922, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728957896371943, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728957896374028, "dur":124457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728957896019715, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728957896019715, "dur":1995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728957896021710, "dur":12347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1728957896034062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728957896034861, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1728957896035890, "dur":83104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896119000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728957896119013, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896120588, "dur":31519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896152113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728957896152124, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896154831, "dur":30431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896185266, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728957896185278, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896188177, "dur":68421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896256610, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728957896256631, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896258273, "dur":160664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896418940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728957896418946, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728957896420140, "dur":78337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728957896019813, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728957896019814, "dur":1881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728957896021696, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1728957896022087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728957896030640, "dur":10270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1728957896040970, "dur":47832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896088808, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728957896088828, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896090241, "dur":66183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896156433, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728957896156471, "dur":5464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896163188, "dur":46672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896209870, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728957896209889, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896211796, "dur":81987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896293787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728957896293794, "dur":4876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896298714, "dur":164829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896463546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728957896463554, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728957896464210, "dur":34279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728957896019996, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728957896019996, "dur":1697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728957896021693, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1728957896022098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728957896030811, "dur":9028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1728957896039902, "dur":38971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896078901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728957896078909, "dur":3900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896082848, "dur":45770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896128630, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728957896128651, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896131689, "dur":72301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896204000, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728957896204016, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896205472, "dur":64756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896270232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728957896270241, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896271460, "dur":107433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896378898, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728957896378933, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728957896379851, "dur":118629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728957896020116, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728957896020116, "dur":1574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728957896021693, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1728957896021960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728957896031781, "dur":7236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1728957896039089, "dur":44939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728957896084035, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728957896084055, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728957896085510, "dur":108431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728957896193957, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728957896193990, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728957896195870, "dur":152024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728957896347898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728957896347906, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728957896348772, "dur":149707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728957896020136, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728957896020137, "dur":1555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728957896021694, "dur":15766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1728957896037511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728957896037607, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1728957896041296, "dur":205859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728957896247165, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728957896247241, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728957896248791, "dur":43251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728957896292052, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728957896292069, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728957896293752, "dur":104532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728957896398289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728957896398295, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728957896399782, "dur":98690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728957896020254, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728957896020254, "dur":1459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728957896021716, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1728957896021895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728957896075481, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1728957896077633, "dur":56968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728957896134610, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728957896134628, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728957896137396, "dur":61797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728957896199196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728957896199204, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728957896201709, "dur":100886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728957896302606, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728957896302633, "dur":2116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728957896304790, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1728957896304848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728957896304854, "dur":5234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1728957896310139, "dur":8666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1728957896318814, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728957896318832, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1728957896320515, "dur":177983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728957896020365, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728957896020365, "dur":1324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728957896021697, "dur":57417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1728957896079117, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728957896080848, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1728957896082395, "dur":167293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1728957896249691, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728957896249699, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1728957896252677, "dur":160862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1728957896413542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728957896413548, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1728957896414240, "dur":84204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896020378, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896020379, "dur":1364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896021743, "dur":19912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1728957896041659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896041933, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1728957896044839, "dur":34030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896078877, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896078904, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896082410, "dur":32921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896115334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896115346, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896116714, "dur":47694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896164414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896164430, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896166980, "dur":31985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896198969, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896199007, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896202118, "dur":91352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896293474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896293482, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896296793, "dur":199768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896496564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728957896496570, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728957896498385, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1728957896498387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728957896020402, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728957896020402, "dur":1461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728957896021863, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1728957896021977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728957896027123, "dur":12648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1728957896039810, "dur":68251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896108067, "dur":504, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728957896108589, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896110365, "dur":36561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896146933, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728957896146954, "dur":4284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896151276, "dur":46480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896197761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728957896197773, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896201327, "dur":62408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896263738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728957896263748, "dur":5084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896268865, "dur":141229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896410098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728957896410105, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728957896411522, "dur":86986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728957896020427, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728957896020427, "dur":1360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728957896021787, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1728957896021857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728957896073554, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1728957896076122, "dur":73157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728957896149283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728957896149292, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728957896151650, "dur":112223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728957896263875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728957896263881, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728957896265008, "dur":57640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728957896322653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728957896322666, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728957896323868, "dur":174593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728957896020449, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728957896020450, "dur":1535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728957896021985, "dur":255158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728957896277153, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728957896277163, "dur":27237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728957896304462, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1728957896304504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728957896304583, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1728957896305923, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1728957896306041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728957896306048, "dur":5289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1728957896311368, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1728957896311404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728957896311410, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1728957896313653, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1728957896313755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728957896313763, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1728957896314924, "dur":183540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728957896020469, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728957896020469, "dur":1617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728957896022086, "dur":92330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1728957896114420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728957896114431, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1728957896118371, "dur":32418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728957896150795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728957896150804, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728957896153570, "dur":35311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728957896188886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728957896188898, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728957896190803, "dur":71290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728957896262124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728957896262135, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728957896263636, "dur":135197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728957896398859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728957896398866, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728957896401272, "dur":97192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728957896020587, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728957896020587, "dur":1548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728957896022135, "dur":40696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge.exe" }}
+,{ "pid":12345, "tid":16, "ts":1728957896062844, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728957896062861, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge.exe" }}
+,{ "pid":12345, "tid":16, "ts":1728957896065320, "dur":42767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896108092, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728957896108101, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896110347, "dur":37366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896147720, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728957896147734, "dur":3431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896151213, "dur":33071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896184289, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728957896184300, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896185401, "dur":38838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896224253, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728957896224278, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896226249, "dur":215665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896441917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728957896441924, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728957896443671, "dur":54792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728957896020489, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728957896020489, "dur":1284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728957896021773, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1728957896021875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728957896074537, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1728957896076179, "dur":45085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728957896121268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728957896121276, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728957896122448, "dur":53889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728957896176352, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728957896176375, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728957896178175, "dur":131348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728957896309551, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728957896309564, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728957896311834, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":17, "ts":1728957896311871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728957896311876, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":17, "ts":1728957896313992, "dur":184443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896020518, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896020518, "dur":1260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896021779, "dur":11254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1728957896033038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896036449, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1728957896037545, "dur":37936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896075486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896075935, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896077195, "dur":43044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896120245, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896120257, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896121139, "dur":31591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896152767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896152777, "dur":6516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896159335, "dur":38846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896198185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896198194, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896200687, "dur":47741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896248434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896248447, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896249565, "dur":105575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896355146, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728957896355158, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728957896356776, "dur":141708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896020543, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896020544, "dur":1247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896021791, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":19, "ts":1728957896021908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896027163, "dur":12821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":19, "ts":1728957896040023, "dur":68311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896108338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896108344, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896110164, "dur":38906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896149075, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896149087, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896151165, "dur":45625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896196795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896196813, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896197826, "dur":51411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896249241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896249251, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896251048, "dur":41766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896292817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896292824, "dur":6323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896299179, "dur":10342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896309554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896309565, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728957896310830, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/level0.resS" }}
+,{ "pid":12345, "tid":19, "ts":1728957896310866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896310872, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/level0.resS" }}
+,{ "pid":12345, "tid":19, "ts":1728957896311693, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":19, "ts":1728957896311728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728957896311734, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":19, "ts":1728957896313828, "dur":184611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728957896020567, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728957896020567, "dur":1160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728957896021728, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1728957896021852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728957896036362, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1728957896039605, "dur":68416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728957896108034, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728957896108060, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728957896110048, "dur":54626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728957896164678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728957896164687, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728957896166922, "dur":47856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728957896214782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728957896214791, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728957896215912, "dur":111000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728957896326917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728957896326928, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728957896328267, "dur":170169, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1728957896020614, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1728957896020615, "dur":1286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1728957896021901, "dur":116543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896138450, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1728957896138558, "dur":7101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896145708, "dur":38045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896183761, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1728957896183780, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896185407, "dur":41321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896226733, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1728957896226750, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896228099, "dur":64499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896292607, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1728957896292621, "dur":3747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896296431, "dur":49175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896345614, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1728957896345630, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":21, "ts":1728957896347034, "dur":151403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1728957896020629, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1728957896020630, "dur":1245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1728957896021875, "dur":57202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896079081, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1728957896079458, "dur":4841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896084346, "dur":50981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896135333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1728957896135343, "dur":5224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896140626, "dur":43490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896184126, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1728957896184147, "dur":4606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896188827, "dur":38451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896227282, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1728957896227296, "dur":7235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896234572, "dur":112899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896347474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1728957896347482, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":22, "ts":1728957896348470, "dur":149989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1728957896020657, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1728957896020658, "dur":1044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1728957896021704, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":23, "ts":1728957896021849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1728957896038980, "dur":8171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":23, "ts":1728957896047198, "dur":40704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896087911, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1728957896087932, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896090307, "dur":44360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896134760, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1728957896134773, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896137202, "dur":45185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896182401, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1728957896182425, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896184750, "dur":42696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896227449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1728957896232693, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896234691, "dur":162706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896397409, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1728957896397426, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":23, "ts":1728957896399088, "dur":99382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1728957896020676, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1728957896020676, "dur":1022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1728957896021700, "dur":15322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":24, "ts":1728957896037027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1728957896037174, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":24, "ts":1728957896038836, "dur":56248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1728957896095093, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1728957896095110, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1728957896096284, "dur":60749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1728957896157038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1728957896157046, "dur":6242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1728957896163322, "dur":50247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":24, "ts":1728957896213576, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1728957896213593, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":24, "ts":1728957896214880, "dur":190681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":24, "ts":1728957896405571, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1728957896405594, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/samsung/Documents/unity/DodgeExe/Ex03_Dodge_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":24, "ts":1728957896406981, "dur":91487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728957896501297, "dur":1152, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1728957896531428, "dur": 463, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728957896531083, "dur": 822, "ph": "X", "name": "Write chrome-trace events", "args": {} },
