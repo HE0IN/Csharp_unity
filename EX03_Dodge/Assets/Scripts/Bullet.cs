@@ -37,6 +37,8 @@ public class Bullet : MonoBehaviour
             if(playerController != null) {
                 playerController.Die();
             }
+            //탄알이 소멸되도록 한다.
+            Destroy(gameObject, 0.1f);
         }
     }
     void OnTriggerStay(Collider other) {

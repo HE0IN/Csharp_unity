@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRididbody;//이동에 사용할 리지드바드 컴포넌트
     public float speed = 8f; //이동 속력
+    public GameObject vfxBoom = null;  //폭발 이펙트 프리팹
 
     void Start(){
         playerRididbody = GetComponent<Rigidbody>();
@@ -27,15 +28,27 @@ public class PlayerController : MonoBehaviour
         playerRididbody.velocity = newVelocity;  //속도 = 거리 / 시간
     }
     public void Die() { //충돌시 수행되는 코드
-        //게임오브젝트 비활성화
-        gameObject.SetActive(false);
 
-        //GameManger 게임오브젝트의 GameManger 스크립트 찾기
         //FindObjectOfType : 씬에 존재하는 GameManger 타입의 오브젝트를 찾아오기
         GameManger gameManger = FindObjectOfType<GameManger>();
         if(gameManger != null) {
-            gameManger.EndGame();
+            if(gameManger.lifeCount == 1) { //마지막 생명이면, 게임종료
+                //플레이어 게임오브젝트 비활성화
+                gameObject.SetActive(false);
+                gameManger.EndGame();
+                //폭발 VFX 재생
+                Instantiate(vfxBoom, transform.position, transform.rotation );
+
+                //사운드 재생
+                SoundManager soundManager = FindObjectOfType<SoundManager>();
+                if(soundManager != null) {
+                    soundManager.PlaySound("explosion");
+                }
+            } else {
+                gameManger.lifeCount -= 1;
+            }
         }
+
 
         //gameObject : 예약어, 자기 게임오브젝트
         //transform : 예약어, 자기 트랜스폼 컴포넌트
