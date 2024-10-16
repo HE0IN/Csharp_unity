@@ -41,6 +41,12 @@ public class BulletSpawner : MonoBehaviour
             //탄알이 타겟을 향해 바라보도록(forward z+방향을 조정) 한다.
             bullet.transform.LookAt(target);
 
+            //사운드 재생
+            SoundManager soundManager = FindObjectOfType<SoundManager>();
+            if(soundManager != null) {
+                soundManager.PlaySound("fire");
+            }
+
             //다음 탄알 생성 시간 랜덤 설정
             spawnRate = Random.Range(spawnRateMin, spawnRateMax);
         }
