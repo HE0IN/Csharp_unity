@@ -30,8 +30,12 @@ public class Bullet : MonoBehaviour
 
     //트리거 충돌: 힘이 가해지지 않는 논리적 충돌
     void OnTriggerEnter(Collider other) {
-        Debug.Log("OnTriggerEnter");
-        if(other.tag == "Player") {
+        //Debug.Log("OnTriggerEnter");
+        if(other.tag == "Wall") {
+            //탄알이 소멸되도록 한다.
+            Destroy(gameObject, 0.1f);
+        }
+        else if(other.tag == "Player") {
             //Die()함수 호출
             PlayerController playerController = other.GetComponent<PlayerController>();
             if(playerController != null) {

@@ -6,8 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRididbody;//이동에 사용할 리지드바드 컴포넌트
     public float speed = 8f; //이동 속력
+    public float rotationSpeed = 200f;
     public GameObject vfxBoom = null;  //폭발 이펙트 프리팹
-
+    
     void Start(){
         playerRididbody = GetComponent<Rigidbody>();
     }
@@ -26,6 +27,14 @@ public class PlayerController : MonoBehaviour
         Vector3 newVelocity = new Vector3 (xSpeed, 0f, zSpeed);
         //Rigidbody에 속도를 적용(이전의 속도를 지우고 새로운 속도를 즉시 반영,관성무시)
         playerRididbody.velocity = newVelocity;  //속도 = 거리 / 시간
+
+        if(Input.GetKey(KeyCode.Q)) {
+            // Vector3(0,1,0) up
+            transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
+        }
+        if(Input.GetKey(KeyCode.E)) {
+            transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+        }
     }
     public void Die() { //충돌시 수행되는 코드
 

@@ -25,6 +25,9 @@ public class GameManger : MonoBehaviour
     public GameObject bulletSpawner2;
     public GameObject bulletSpawner3;
     public GameObject bulletSpawner4;
+    private bool isSpawner2Spawn = false; //적군2가 스폰되었는지
+    private bool isSpawner3Spawn = false; //적군3가 스폰되었는지
+    private bool isSpawner4Spawn = false; //적군4가 스폰되었는지
 
     private float surviveTime; //생존시간
     private bool isGameover; //게임오버 상태
@@ -88,14 +91,17 @@ public class GameManger : MonoBehaviour
             lifeText.text = "Life: " + lifeCount;
 
             //생존시간 5초이상
-            if(surviveTime > 5.0f ) {
+            if(surviveTime > 10.0f && isSpawner2Spawn == false) { //처음 생성하는지 물어봄.
                 bulletSpawner2.SetActive(true);
+                isSpawner2Spawn = true;
             }
-            if(surviveTime > 10.0f) {
+            if(surviveTime > 20.0f && isSpawner3Spawn == false) {
                 bulletSpawner3.SetActive(true);
+                isSpawner3Spawn = true;
             }
-            if(surviveTime > 15.0f) {
+            if(surviveTime > 30.0f && isSpawner4Spawn == false) {
                 bulletSpawner4.SetActive(true);
+                isSpawner4Spawn = true;
             }
 
         } else {

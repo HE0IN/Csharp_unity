@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletSpawner : MonoBehaviour
-{
+public class BulletSpawner : MonoBehaviour {
     public GameObject bulletPrefab; //생성할 탄알의 원본 프리팹
     public float spawnRateMin = 0.5f; //최소 생성 주기
     public float spawnRateMax = 3.0f; //최대 생성 주기
@@ -16,7 +15,7 @@ public class BulletSpawner : MonoBehaviour
         timeAfterSpawn = 0; //최근 생성 이후의 시간을 0으로 초기화
         spawnRate = Random.Range(spawnRateMin, spawnRateMax); //생성 시간을 랜덤 설정
         target = GameObject.Find("Player").transform;
-        
+
         //씬(계층뷰)에서 게임오브젝트를 찾는 방법
         GameObject player = GameObject.Find("Player"); //속도 느림.
         GameObject player2 = GameObject.FindWithTag("Player");
@@ -50,5 +49,10 @@ public class BulletSpawner : MonoBehaviour
             //다음 탄알 생성 시간 랜덤 설정
             spawnRate = Random.Range(spawnRateMin, spawnRateMax);
         }
+    }
+    public void Die() {
+        //Destroy(gameObject, 0.1f); //씬/하이어라키에서 없어짐.
+
+        gameObject.SetActive(false); //비활성화
     }
 }

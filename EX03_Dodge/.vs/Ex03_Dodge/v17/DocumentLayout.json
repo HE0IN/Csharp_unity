@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|c:\\users\\samsung\\documents\\unity\\ex03_dodge\\assets\\scripts\\destroyattime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyattime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|c:\\users\\samsung\\documents\\unity\\ex03_dodge\\assets\\scripts\\enemychaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemychaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|c:\\users\\samsung\\documents\\unity\\ex03_dodge\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|c:\\users\\samsung\\documents\\unity\\ex03_dodge\\assets\\scripts\\gamemanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\assets\\scripts\\bulletspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\assets\\scripts\\playerbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\assets\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\assets\\scripts\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\assets\\scripts\\destroyattime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyattime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +51,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyChaser.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\EnemyChaser.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyChaser.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\EnemyChaser.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyChaser.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T02:47:39.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerBullet.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\PlayerBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBullet.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\PlayerBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerBullet.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T01:18:21.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BulletSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\BulletSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletSpawner.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\BulletSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletSpawner.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T01:09:21.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\Gun.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gun.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\Gun.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gun.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T01:07:58.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rotator.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\Rotator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Rotator.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\Rotator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Rotator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T00:53:10.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManger.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\GameManger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManger.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\GameManger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManger.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T00:15:36.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T00:08:09.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DestroyAtTime.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\DestroyAtTime.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyAtTime.cs",
@@ -30,21 +144,19 @@
               "RelativeToolTip": "Assets\\Scripts\\DestroyAtTime.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T05:17:04.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T05:17:04.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\samsung\\Documents\\unity\\Ex03_Dodge\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwCUAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T05:10:34.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T05:10:34.513Z"
             }
           ]
         }
